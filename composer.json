@@ -1,0 +1,6 @@
+{
+    "require": {
+        "zendframework/zendframework1": "1.12.3",
+        "fzaninotto/faker": "~1.4"
+    }
+}

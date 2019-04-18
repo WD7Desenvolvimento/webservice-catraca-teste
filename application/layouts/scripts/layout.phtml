@@ -1,0 +1,43 @@
+<?php echo $this->docType() ?>
+<html xml:lang="en" lang="en">
+<head>
+    <?php
+    echo $this->headMeta() . PHP_EOL;
+    echo $this->headTitle() . PHP_EOL;
+    echo $this->headLink() . PHP_EOL;
+    echo $this->headStyle() . PHP_EOL;
+    echo $this->headScript() . PHP_EOL;
+    ?>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div id="master">
+    <div id="container" class="rounded">
+        <div id="header">
+            <div id="topheader">
+                <h1 id="logo"><a href="<?php echo $this->baseUrl('/') ?>" title="Demo Application"><strong>Demo</strong><i class="darkBlue">App</i></a></h1>
+                <div id="topnav">
+                    <?php //echo $this->accountSettings(); ?>
+                </div>
+            </div>
+            <div id="midheader"></div>
+            <div id="botheader"></div>
+        </div>
+        <div id="middle" class="">
+            <div class="content">
+
+                <?php echo $this->layout()->content; ?>
+
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</div>
+<?php echo $this->inlineScript(); ?>
+</body>
+</html>

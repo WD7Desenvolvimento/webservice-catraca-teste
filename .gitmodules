@@ -1,0 +1,3 @@
+[submodule "vendor/In2it"]
+	path = vendor/In2it
+	url = https://github.com/in2it/In2it.git

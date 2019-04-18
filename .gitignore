@@ -1,0 +1,8 @@
+.idea/
+library/In2it
+library/Zend
+vendor/autoload.php
+vendor/composer
+vendor/fzaninotto
+vendor/zendframework
+composer.lock
